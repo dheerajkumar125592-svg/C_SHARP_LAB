@@ -1,0 +1,32 @@
+/*. Q4. Write a program to input Principal Amount, Rate and Year
+           and display Compound Interest.  */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace prog5
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write(" Enter princple Amount : ");
+            double p=double.Parse(Console.ReadLine());
+
+            Console.Write(" Enter interest rate(in percetnage) : ");
+            double r=double.Parse(Console.ReadLine());
+
+            Console.Write(" Enter time( in years ) : ");
+            double t=double.Parse(Console.ReadLine());
+
+            double a = p * Math.pow((1 + r / 100),t);
+            double ci = a - p;
+
+            Console.Write(" Compound Interest :" + ci);
+
+        }
+    }
+}
