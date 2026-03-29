@@ -1,0 +1,28 @@
+/*. Q2. Write a program to input 2 number and an arithmetic operator.
+         Display the result accordingly. */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace unit1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(" enter no1 : ");
+            int a=int.Parse(Console.ReadLine());
+            Console.WriteLine(" enter no2 : ");
+            int b=int.Parse(Console.ReadLine());
+            int c = a + b;
+            int d = a - b;
+            Console.WriteLine(" addition : " + c);
+            Console.WriteLine(" subtraction : " + d);
+            Console.WriteLine(" multiplicaton : " + a * b);
+            Console.WriteLine(" Division : " + a / b);
+        }
+    }
+}
