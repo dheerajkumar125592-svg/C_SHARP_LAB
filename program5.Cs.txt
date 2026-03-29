@@ -1,0 +1,26 @@
+/*  Q5. Write a program to input radius of a circle, and print area of
+          that circle.    */
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace prog4
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write(" Enter Circle of radius : ");
+            double r=double.Parse(Console.ReadLine());
+
+            double a = 3.14 * r * r;
+
+            Console.Write(" Area of  circle is : " + a );
+
+        }
+    }
+}
