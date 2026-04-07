@@ -1,48 +1,36 @@
-//Q2 Write a program to input 2 number and an arithmetic operator. Display the result accordingly.
+/*  Q10.  Write a program to check weather a number inputted by
+     user is prime or not.   */
 
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-class Program
+namespace program10
 {
-    static void Main()
+    internal class Program
     {
-        double num1, num2;
-        char op;
-
-        Console.Write("Enter first number: ");
-        num1 = Convert.ToDouble(Console.ReadLine());
-
-        Console.Write("Enter second number: ");
-        num2 = Convert.ToDouble(Console.ReadLine());
-
-        Console.Write("Enter operator (+, -, *, /): ");
-        op = Convert.ToChar(Console.ReadLine());
-
-        switch (op)
+        static void Main(string[] args)
         {
-            case '+':
-                Console.WriteLine("Result = " + (num1 + num2));
-                break;
+            Console.Write(" Enter number : ");
+            int num=int.Parse(Console.ReadLine());
 
-            case '-':
-                Console.WriteLine("Result = " + (num1 - num2));
-                break;
+            int count = 0;
 
-            case '*':
-                Console.WriteLine("Result = " + (num1 * num2));
-                break;
+            for(int i = 1; i <= num; i++)
+            {
+                if (num % i == 0)
+                    count++;
+            }
 
-            case '/':
-                if (num2 != 0)
-                    Console.WriteLine("Result = " + (num1 / num2));
-                else
-                    Console.WriteLine("Division by zero not allowed");
-                break;
+            if (count == 2)
+               Console.WriteLine(" It is Prime number. ");
 
-            default:
-                Console.WriteLine("Invalid Operator");
-                break;
+            else
+               Console.WriteLine(" It is not Prime number. ");
+
         }
     }
 }
