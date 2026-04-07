@@ -1,0 +1,32 @@
+/*. Q13. Write a program to find minimum of three numbers using
+            conditional operator */
+
+using System;https;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace program13
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write(" Enter first number: ");
+            int a=int.Parse(Console.ReadLine());
+
+            Console.Write(" Enter second number :");
+            int b=int.Parse(Console.ReadLine());
+
+            Console.Write(" Enter third number: ");
+            int c=int.Parse(Console.ReadLine());
+
+            int min = (a < b) ? (a < c ? a : c)
+              : (b < c ? b : c);
+
+              Console.WriteLine(" Minimun number is : " + min);
+
+        }
+    }
+}
