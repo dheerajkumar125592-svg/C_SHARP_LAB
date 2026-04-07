@@ -1,0 +1,33 @@
+/* Q15. Write a program to check weather a string is palindrome or not 
+        e.g. input:nayan output: it is palindrome 
+        e.g. input: virat output: it is not palindrome    */
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace program15
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write(" Enter string :");
+            string str = Console.ReadLine();
+            string rev = " ";
+
+            for(int i = str.length - 1; i >= 0; i--)
+            {
+                rev += str[i];
+            }
+            if (str == rev)
+            Console.WriteLine("It is Palindrome.");
+
+            else
+            Console.Writeline(" It is not Palindrome.");
+        }
+    }
+}
