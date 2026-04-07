@@ -1,0 +1,24 @@
+//3 Write a program to input Principal Amount, Rate and Year and display Simple Interest
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double principal, rate, time, SI;
+
+        Console.Write("Enter Principal Amount: ");
+        principal = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Enter Rate of Interest: ");
+        rate = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Enter Time (in years): ");
+        time = Convert.ToDouble(Console.ReadLine());
+
+        SI = (principal * rate * time) / 100;
+
+        Console.WriteLine("Simple Interest = " + SI);
+    }
+}

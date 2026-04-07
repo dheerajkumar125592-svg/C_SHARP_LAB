@@ -1,0 +1,48 @@
+//Q2 Write a program to input 2 number and an arithmetic operator. Display the result accordingly.
+
+
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        double num1, num2;
+        char op;
+
+        Console.Write("Enter first number: ");
+        num1 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Enter second number: ");
+        num2 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Enter operator (+, -, *, /): ");
+        op = Convert.ToChar(Console.ReadLine());
+
+        switch (op)
+        {
+            case '+':
+                Console.WriteLine("Result = " + (num1 + num2));
+                break;
+
+            case '-':
+                Console.WriteLine("Result = " + (num1 - num2));
+                break;
+
+            case '*':
+                Console.WriteLine("Result = " + (num1 * num2));
+                break;
+
+            case '/':
+                if (num2 != 0)
+                    Console.WriteLine("Result = " + (num1 / num2));
+                else
+                    Console.WriteLine("Division by zero not allowed");
+                break;
+
+            default:
+                Console.WriteLine("Invalid Operator");
+                break;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+//1 Write a program to print “Hello world”
+
+
+using System;
+
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello World");
+    }
+}
