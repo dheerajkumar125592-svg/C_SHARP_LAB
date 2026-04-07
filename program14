@@ -1,0 +1,37 @@
+/* Q14. Write a program to check weather a number is palindrome or not 
+    e.g. input: 121, output: It is palindrome 
+         input:124, output: It is not palindrome  */
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace program14
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Enter number:");
+            int num=int.Parse(Console.ReadLine());
+
+            int temp = num,
+                rev = 0;
+
+              while( num > 0)
+              {
+                rev = rev * 10 + (num % 10);
+                num = num / 10;
+              }
+
+              if (temp == rev)
+              Console.WriteLine(" It is Palindrome.");
+
+              else
+              Console.WriteLine(" It is Palindrome.");
+        }
+    }
+}
