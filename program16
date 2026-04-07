@@ -1,0 +1,35 @@
+/* Q16. Write a program to check weather a number is ArmStrong or not   */
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace program16
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write(" Enter number :");
+            int num=int.Parse(Console.REadLine());
+
+            int temp = num;
+                sum = 0;
+            
+            while ( num > 0)
+            {
+                int digit = num % 10;
+                sum += digit * digit * digit;
+                num = num / 10;
+            }
+
+            if ( temp == sum)
+               Console.WriteLine(" It is Armstrong Number.");
+            
+            else 
+               Console.WriteLine(" It is Not Armstrong Number.");
+        }
+    }
+}
