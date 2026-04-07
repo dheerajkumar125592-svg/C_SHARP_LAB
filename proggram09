@@ -1,24 +1,30 @@
-//3 Write a program to input Principal Amount, Rate and Year and display Simple Interest
+/*.  Q9. Write a program to find Fibonacci series up to a number inputted by user.  */
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-class Program
+namespace program9
 {
-    static void Main()
+    internal class Program
     {
-        double principal, rate, time, SI;
+        static void Main(string[] args)
+        {
+            Console.Write(" Enter number of terms :");
+            int n=int.Parse(Console.ReadLine());
 
-        Console.Write("Enter Principal Amount: ");
-        principal = Convert.ToDouble(Console.ReadLine());
+            int a = 0, b = 1, c;
 
-        Console.Write("Enter Rate of Interest: ");
-        rate = Convert.ToDouble(Console.ReadLine());
-
-        Console.Write("Enter Time (in years): ");
-        time = Convert.ToDouble(Console.ReadLine());
-
-        SI = (principal * rate * time) / 100;
-
-        Console.WriteLine("Simple Interest = " + SI);
+            Console.Write(a + " " + b + " ");
+            for(int i = 3; i <= n; i++)
+            {
+                c = a + b;
+                Console.Write(c + " ");
+                a = b;
+                b = c;
+            }
+        }
     }
 }
