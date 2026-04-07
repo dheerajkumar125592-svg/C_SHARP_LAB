@@ -1,6 +1,5 @@
-/*  Q5. Write a program to input radius of a circle, and print area of
-          that circle.    */
-
+/*  Q6. Write a program to input a number and print whether it is
+          Even or Odd Number.   */
 
 using System;
 using System.Collections.Generic;
@@ -8,19 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace prog4
+namespace program6
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.Write(" Enter Circle of radius : ");
-            double r=double.Parse(Console.ReadLine());
+            Console.write(" Enter a number : ");
+            int num=int.Parse(Console.ReadLine());
 
-            double a = 3.14 * r * r;
-
-            Console.Write(" Area of  circle is : " + a );
-
+            if (num % 2 == 0)
+              Console.Writeline(" It is Even number. ");
+            
+            else
+              Console.WriteLine(" It is Odd number. ");
         }
     }
 }
