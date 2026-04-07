@@ -1,0 +1,38 @@
+/* Q19. Write a program to display minimum number from 5 
+        numbers inputted by user by using the concept of arrays.  */
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace program19
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] num = new int[5];
+            Console.WriteLine(" Enter 5 numbers: ");
+
+            for(int i = 0; i < 5; i++)
+            {
+                num[i] =int.Parse(Console.ReadLine());
+            }
+
+            int min = num[0];
+
+            for(int i =1; i < 5; i++)
+            {
+                if( num[i] < min)
+                {
+                    min = num[i];
+                }
+            }
+
+            Console.WriteLine(" Minimum number is: "+ min);
+        }
+    }
+}
