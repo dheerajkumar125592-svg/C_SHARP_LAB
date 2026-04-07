@@ -1,0 +1,39 @@
+/*. Q11. Write a program to find all prime numbers between two
+      values inputted by the user.  */
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace program11
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write(" Enter Statrting number : ");
+            int start=int.Parse(Consloe.ReadLine());
+
+            Console.Write(" Enter ending number : ");
+            int end=int.Parse(Console.ReadLine());
+
+            for( int i = start; i <= end; i++)
+            {
+                int count = 0;
+
+                for(int j = 0; j <= i; j++)
+                {
+                    if( i % j == 0)
+                       count++;
+                }
+
+                if (count == 2)
+                   Console.WriteLine(i);
+            }
+            
+        }
+    }
+}
