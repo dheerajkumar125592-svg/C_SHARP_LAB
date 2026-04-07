@@ -1,0 +1,31 @@
+/*. Q12. Write a program to Calculate sum of the number inputted by the user for
+         e.g. if user has inputted 1234 then it’s sum is 10.  */
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace program12
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write(" Enter number :");
+            int num=int.Parse(Console.ReadLine());
+
+            int sum = 0;
+
+            while (num > 0)
+            {
+                sum += num % 10;
+                num = num / 10;
+            }
+
+            Console.WriteLine(" Sum of digits: " + sum);
+        }
+    }
+}
