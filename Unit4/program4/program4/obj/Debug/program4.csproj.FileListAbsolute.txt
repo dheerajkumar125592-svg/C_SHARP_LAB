@@ -1,0 +1,7 @@
+D:\Unit4\program4\program4\bin\Debug\program4.exe.config
+D:\Unit4\program4\program4\bin\Debug\program4.exe
+D:\Unit4\program4\program4\bin\Debug\program4.pdb
+D:\Unit4\program4\program4\obj\Debug\program4.csproj.AssemblyReference.cache
+D:\Unit4\program4\program4\obj\Debug\program4.csproj.CoreCompileInputs.cache
+D:\Unit4\program4\program4\obj\Debug\program4.exe
+D:\Unit4\program4\program4\obj\Debug\program4.pdb
