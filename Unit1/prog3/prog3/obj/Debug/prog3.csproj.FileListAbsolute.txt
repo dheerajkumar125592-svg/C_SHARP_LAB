@@ -1,0 +1,7 @@
+D:\Practicals\prog3\prog3\bin\Debug\prog3.exe.config
+D:\Practicals\prog3\prog3\bin\Debug\prog3.exe
+D:\Practicals\prog3\prog3\bin\Debug\prog3.pdb
+D:\Practicals\prog3\prog3\obj\Debug\prog3.csproj.AssemblyReference.cache
+D:\Practicals\prog3\prog3\obj\Debug\prog3.csproj.CoreCompileInputs.cache
+D:\Practicals\prog3\prog3\obj\Debug\prog3.exe
+D:\Practicals\prog3\prog3\obj\Debug\prog3.pdb

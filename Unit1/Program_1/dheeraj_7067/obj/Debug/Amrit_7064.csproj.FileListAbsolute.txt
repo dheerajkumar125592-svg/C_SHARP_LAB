@@ -1,0 +1,7 @@
+D:\Practicals\Amrit_7064\Amrit_7064\bin\Debug\Amrit_7064.exe.config
+D:\Practicals\Amrit_7064\Amrit_7064\bin\Debug\Amrit_7064.exe
+D:\Practicals\Amrit_7064\Amrit_7064\bin\Debug\Amrit_7064.pdb
+D:\Practicals\Amrit_7064\Amrit_7064\obj\Debug\Amrit_7064.csproj.AssemblyReference.cache
+D:\Practicals\Amrit_7064\Amrit_7064\obj\Debug\Amrit_7064.csproj.CoreCompileInputs.cache
+D:\Practicals\Amrit_7064\Amrit_7064\obj\Debug\Amrit_7064.exe
+D:\Practicals\Amrit_7064\Amrit_7064\obj\Debug\Amrit_7064.pdb
