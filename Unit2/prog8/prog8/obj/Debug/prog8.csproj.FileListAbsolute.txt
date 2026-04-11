@@ -1,0 +1,7 @@
+D:\Practicals\prog8\prog8\bin\Debug\prog8.exe.config
+D:\Practicals\prog8\prog8\bin\Debug\prog8.exe
+D:\Practicals\prog8\prog8\bin\Debug\prog8.pdb
+D:\Practicals\prog8\prog8\obj\Debug\prog8.csproj.AssemblyReference.cache
+D:\Practicals\prog8\prog8\obj\Debug\prog8.csproj.CoreCompileInputs.cache
+D:\Practicals\prog8\prog8\obj\Debug\prog8.exe
+D:\Practicals\prog8\prog8\obj\Debug\prog8.pdb

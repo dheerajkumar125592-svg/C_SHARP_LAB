@@ -1,0 +1,7 @@
+D:\Practicals\prog5\prog5\bin\Debug\prog5.exe.config
+D:\Practicals\prog5\prog5\bin\Debug\prog5.exe
+D:\Practicals\prog5\prog5\bin\Debug\prog5.pdb
+D:\Practicals\prog5\prog5\obj\Debug\prog5.csproj.AssemblyReference.cache
+D:\Practicals\prog5\prog5\obj\Debug\prog5.csproj.CoreCompileInputs.cache
+D:\Practicals\prog5\prog5\obj\Debug\prog5.exe
+D:\Practicals\prog5\prog5\obj\Debug\prog5.pdb

@@ -1,0 +1,7 @@
+D:\Practicals\prog7\prog7\bin\Debug\prog7.exe.config
+D:\Practicals\prog7\prog7\bin\Debug\prog7.exe
+D:\Practicals\prog7\prog7\bin\Debug\prog7.pdb
+D:\Practicals\prog7\prog7\obj\Debug\prog7.csproj.AssemblyReference.cache
+D:\Practicals\prog7\prog7\obj\Debug\prog7.csproj.CoreCompileInputs.cache
+D:\Practicals\prog7\prog7\obj\Debug\prog7.exe
+D:\Practicals\prog7\prog7\obj\Debug\prog7.pdb
